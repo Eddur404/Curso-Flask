@@ -1,0 +1,24 @@
+{
+  "name": "curso-flask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eddur404/Curso-Flask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Eddur404/Curso-Flask/issues"
+  },
+  "homepage": "https://github.com/Eddur404/Curso-Flask#readme",
+  "dependencies": {
+    "tailwindcss": "^4.2.2"
+  }
+}

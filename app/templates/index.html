@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="max-w-xl mx-auto">
+
+    <!-- Criar post -->
+    <div class="bg-white p-4 rounded-xl shadow mb-4">
+        <textarea class="w-full border p-2 rounded" placeholder="O que está acontecendo?"></textarea>
+        <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded">
+            Tweetar
+        </button>
+    </div>
+
+    <!-- Post exemplo -->
+    <div class="bg-white p-4 rounded-xl shadow">
+        <p class="font-bold">@usuario</p>
+        <p>Esse é um post de exemplo 🚀</p>
+    </div>
+
+</div>
+
+{% endblock %}
